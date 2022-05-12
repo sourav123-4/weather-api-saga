@@ -3,17 +3,27 @@
   padding: 0;
 }
 .App_cold{
-  background-image: url('cold.jpg');
+  background-image: url('background1.jpg');
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  
+}
+.App_hot{
+  background-image: url('city.jpg');
   background-size: cover;
   height: 100vh;
   text-align: center;
 }
-.App_hot{
-  background-image: url('hot1.jpg');
+.common{
+  background-image: url('city1.jpg');
   background-size: cover;
   height: 100vh;
   text-align: center;
-  margin:auto;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  
 }
 .data{
   display: flex;
@@ -25,15 +35,27 @@
   flex-direction: column;
   border-radius: 10px;
   justify-content: center;
+  background-color: rgb(12, 4, 0);
+  
 }
 h1{
-  color:rgb(68, 18, 184);
+  color:rgb(15, 4, 38);
+  font-size:"150px";
 }
 form{
   display: flex;
-  justify-content: center;
+  justify-content:center;
   margin: 5px;
 }
 Button{
-  margin: 5px;
+  color: antiquewhite;
+
+}
+h3{
+  margin-top: 50px;
+}
+.temp{
+  display:flex;
+  justify-content:space-around;
+
 }
